@@ -4,10 +4,10 @@
 import java.util.Scanner;
 public class package_01 {
     public static void main(String[] args) {
-    Scanner myObj = new Scanner(System.in);
+    Scanner myObj1 = new Scanner(System.in);
     System.out.println("Enter your name: ");
 
-    String name = myObj.nextLine();
+    String name = myObj1.nextLine();
     System.out.println(name);
   }
 }
